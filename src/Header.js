@@ -1,6 +1,6 @@
 import { useRef } from "react";
-import logo from './images/logo.svg'
-import menu from './images/icon-menu.svg'
+import logo from './images/logo.svg';
+import menu from './images/icon-menu.svg';
 
 function Header() {
     const mobileMenuRef = useRef();
@@ -9,8 +9,8 @@ function Header() {
     }
 
     return ( 
-        <div className="header fixed top-0 left-0 right-0 lg:static mx-6 md:mx-auto max-w-[750px] lg:max-w-[1100px]">
-            <nav className="navbar z-2 flex justify-between items-center py-6 font-bold text-neutral-grayish-violet">
+        <div className="header z-30 fixed top-0 left-0 right-0 lg:static mx-6 md:mx-auto max-w-[750px] lg:max-w-[1024px]">
+            <nav className="navbar z-3 flex justify-between items-center py-6 font-bold text-neutral-grayish-violet">
                 <div className="left-menu w-[50%] flex justify-between">
                     <div className="logo">
                         <a href="#">
@@ -33,7 +33,7 @@ function Header() {
                     </div>
                 </div>
             </nav>
-            <div ref={mobileMenuRef} className="mobile-menu hidden lg:hidden shadow-xl p-6 bg-primary-dark-violet rounded-lg text-white font-bold opacity-0 z-1">
+            <div ref={mobileMenuRef} className="mobile-menu hidden lg:hidden shadow-xl p-6 bg-primary-dark-violet rounded-lg text-white font-bold opacity-0 z-2">
                 <div className="main-menu flex flex-col items-center pb-3">
                     <a href="#" className='w-full text-center p-2 mb-2'>Features</a>
                     <a href="#" className='w-full text-center p-2 mb-2'>Pricing</a>
