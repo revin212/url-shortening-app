@@ -9,8 +9,8 @@ function Header() {
     }
 
     return ( 
-        <div className="header z-30 fixed top-0 left-0 right-0 lg:static mx-6 md:mx-auto max-w-[750px] lg:max-w-[1024px]">
-            <nav className="navbar z-3 bg-white flex justify-between items-center py-6 font-bold text-neutral-grayish-violet">
+        <div className="header z-30 fixed top-0 left-0 right-0 lg:static lg:mx-auto lg:max-w-[1024px]">
+            <nav className="navbar z-3 bg-white flex justify-between items-center px-6 py-6 lg:px-0 font-bold text-neutral-grayish-violet">
                 <div className="left-menu w-[50%] flex justify-between">
                     <div className="logo">
                         <a href="#">

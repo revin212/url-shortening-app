@@ -10,6 +10,7 @@ input.not-valid{
     @apply border-solid border-[3px] border-secondary-red relative focus:outline-none
 }
 
+
 @keyframes show-menu {
     to{
         opacity: 1;
@@ -30,6 +31,13 @@ input.not-valid{
         background-position: top right;
         background-size: 70%;
     }
+
+    .footer-section .get-started{
+        background-image: url('/src/images/bg-boost-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: cover;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -44,5 +52,12 @@ input.not-valid{
         background-image: url('/src/images/bg-shorten-desktop.svg');
         background-repeat: no-repeat;
     }
-}
 
+    .footer-section .get-started{
+        background-image: url('/src/images/bg-boost-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: cover;
+    }
+    
+}
