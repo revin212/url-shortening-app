@@ -10,7 +10,7 @@ function Hero() {
                 <h1 className='text-4xl lg:text-6xl lg:leading-[4.5rem] font-bold text-neutral-very-dark-blue'>More than just shorter links</h1>
                 <p className=' text-lg lead my-4 lg:mt-2 text-neutral-grayish-violet'>Build your brand’s recognition and get detailed insights 
   on how your links are performing.</p>
-                <button className='py-3 px-8 my-4 lg:my-6 bg-primary-cyan text-white rounded-full hover:opacity-70 cursor-pointer'>Get Started</button>
+                <button className='font-bold py-3 px-8 my-4 lg:my-6 bg-primary-cyan text-white rounded-full hover:bg-primary-cyan-hover cursor-pointer'>Get Started</button>
             </div>
         </div>
      );

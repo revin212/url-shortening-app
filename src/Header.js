@@ -10,7 +10,7 @@ function Header() {
 
     return ( 
         <div className="header z-30 fixed top-0 left-0 right-0 lg:static mx-6 md:mx-auto max-w-[750px] lg:max-w-[1024px]">
-            <nav className="navbar z-3 flex justify-between items-center py-6 font-bold text-neutral-grayish-violet">
+            <nav className="navbar z-3 bg-white flex justify-between items-center py-6 font-bold text-neutral-grayish-violet">
                 <div className="left-menu w-[50%] flex justify-between">
                     <div className="logo">
                         <a href="#">
@@ -26,14 +26,14 @@ function Header() {
                 <div className="right-menu w-[200px] flex justify-end items-center">
                     <div className="login-menu hidden lg:flex justify-between w-[100%]">
                         <a href="#" className='py-2 hover:text-primary-dark-violet'>Login</a>
-                        <a href="#" className='px-6 py-2 rounded-full bg-primary-cyan text-white hover:opacity-80'>Sign Up</a>
+                        <a href="#" className='px-6 py-2 rounded-full bg-primary-cyan text-white hover:bg-primary-cyan-hover'>Sign Up</a>
                     </div>
                     <div className="mobile-btn cursor-pointer lg:hidden" onClick={ showMobileMenu }>
                         <img src={ menu } alt="mobile-btn" />
                     </div>
                 </div>
             </nav>
-            <div ref={mobileMenuRef} className="mobile-menu hidden lg:hidden shadow-xl p-6 bg-primary-dark-violet rounded-lg text-white font-bold opacity-0 z-2">
+            <div ref={mobileMenuRef} className="mobile-menu hidden lg:hidden shadow-xl p-6 bg-primary-dark-violet rounded-xl text-white font-bold opacity-0 z-2">
                 <div className="main-menu flex flex-col items-center pb-3">
                     <a href="#" className='w-full text-center p-2 mb-2'>Features</a>
                     <a href="#" className='w-full text-center p-2 mb-2'>Pricing</a>
@@ -41,7 +41,7 @@ function Header() {
                 </div>
                 <div className="login-menu mb-4 flex flex-col items-center pt-5 border-t-[2px] border-neutral-600">
                     <a href="#" className='w-full text-center p-2 mb-2'>Login</a>
-                    <a href="#" className='bg-primary-cyan w-full text-center p-2 rounded-full hover:opacity-80'>Sign Up</a>
+                    <a href="#" className='bg-primary-cyan w-full text-center p-2 rounded-full hover:bg-primary-cyan-hover'>Sign Up</a>
                 </div>
             </div>
         </div>

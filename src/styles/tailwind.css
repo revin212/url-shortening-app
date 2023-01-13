@@ -6,6 +6,10 @@
     animation: show-menu 300ms forwards ease-in-out;
 }
 
+input.not-valid{
+    @apply border-solid border-[3px] border-secondary-red relative focus:outline-none
+}
+
 @keyframes show-menu {
     to{
         opacity: 1;
@@ -19,6 +23,13 @@
         transform: scale(1.2) translateX(20px);
         transform-origin: left;
     }
+
+    .main-app .input-container{
+        background-image: url('/src/images/bg-shorten-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 70%;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -28,4 +39,10 @@
         transform: scale(1.2) translateX(90px);
         transform-origin: left;
     }
+
+    .main-app .input-container{
+        background-image: url('/src/images/bg-shorten-desktop.svg');
+        background-repeat: no-repeat;
+    }
 }
+
