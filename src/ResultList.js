@@ -1,4 +1,4 @@
-import { useEffect, useRef, useCallback } from "react";
+import { useEffect, useCallback } from "react";
 
 const ResultList = (props) => {
     let results = props.results;//get the result array from the props
@@ -15,10 +15,8 @@ const ResultList = (props) => {
     }, []);
 
 
-    function copyLink(id){      //copy the shortened url to clipboard
-        // const shortedLink = document.getElementById(`result-${id}`)
+    function copyLink(id){ 
         const copyBtn = document.getElementById(`btn-${id}`)
-        // navigator.clipboard.writeText(shortedLink.innerText);   //copy the shortened url to clipboard
         copyBtn.innerText = 'Copied!'
         if(copyBtn.classList.contains('bg-primary-cyan')){
             copyBtn.classList.remove('bg-primary-cyan')
