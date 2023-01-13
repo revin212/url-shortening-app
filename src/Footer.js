@@ -23,23 +23,23 @@ function Footer() {
                 {/* links */}
                 <div className="links text-white lg:flex lg:justify-between lg:gap-[6rem]">
                     <div className="features flex flex-col items-center lg:items-start mb-[3rem] text-md text-neutral-gray">
-                        <h3 className='mb-6 font-bold text-white text-lg'>Features</h3>
-                        <a className='mb-2 hover:text-primary-cyan hover:underline' href="#">Link Shortening</a>
-                        <a className='mb-2 hover:text-primary-cyan hover:underline' href="#">Branded Links</a>
-                        <a className='mb-2 hover:text-primary-cyan hover:underline' href="#">Analytics</a>
+                        <h3 className='mb-6 font-bold text-white text-xl'>Features</h3>
+                        <a className='mb-2 lg:mb-4 hover:text-primary-cyan hover:underline' href="#">Link Shortening</a>
+                        <a className='mb-2 lg:mb-4 hover:text-primary-cyan hover:underline' href="#">Branded Links</a>
+                        <a className='mb-2 lg:mb-4 hover:text-primary-cyan hover:underline' href="#">Analytics</a>
                     </div>
                     <div className="resources flex flex-col items-center lg:items-start mb-[3rem] text-md text-neutral-gray">
-                        <h3 className='mb-6 font-bold text-white text-lg'>Resources</h3>
-                        <a className='mb-2 hover:text-primary-cyan hover:underline' href="#">Blog</a>
-                        <a className='mb-2 hover:text-primary-cyan hover:underline' href="#">Developers</a>
-                        <a className='mb-2 hover:text-primary-cyan hover:underline' href="#">Support</a>
+                        <h3 className='mb-6 font-bold text-white text-xl'>Resources</h3>
+                        <a className='mb-2 lg:mb-4 hover:text-primary-cyan hover:underline' href="#">Blog</a>
+                        <a className='mb-2 lg:mb-4 hover:text-primary-cyan hover:underline' href="#">Developers</a>
+                        <a className='mb-2 lg:mb-4 hover:text-primary-cyan hover:underline' href="#">Support</a>
                     </div>
                     <div className="company flex flex-col items-center lg:items-start mb-[3rem] text-md text-neutral-gray">
-                        <h3 className='mb-6 font-bold text-white text-lg'>Company</h3>
-                        <a className='mb-2 hover:text-primary-cyan hover:underline' href="#">About</a>
-                        <a className='mb-2 hover:text-primary-cyan hover:underline' href="#">Our Team</a>
-                        <a className='mb-2 hover:text-primary-cyan hover:underline' href="#">Careers</a>
-                        <a className='mb-2 hover:text-primary-cyan hover:underline' href="#">Contact</a>
+                        <h3 className='mb-6 font-bold text-white text-xl'>Company</h3>
+                        <a className='mb-2 lg:mb-4 hover:text-primary-cyan hover:underline' href="#">About</a>
+                        <a className='mb-2 lg:mb-4 hover:text-primary-cyan hover:underline' href="#">Our Team</a>
+                        <a className='mb-2 lg:mb-4 hover:text-primary-cyan hover:underline' href="#">Careers</a>
+                        <a className='mb-2 lg:mb-4 hover:text-primary-cyan hover:underline' href="#">Contact</a>
                     </div>
                 </div>
 

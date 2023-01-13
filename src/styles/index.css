@@ -921,6 +921,11 @@ video {
   line-height: 1.25rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1052,18 +1057,14 @@ input.not-valid:focus {
   background-color: hsl(180 60% 75% / var(--tw-bg-opacity));
 }
 
-.hover\:fill-primary-cyan:hover {
-  fill: hsl(180, 66%, 49%);
+.hover\:text-primary-cyan:hover {
+  --tw-text-opacity: 1;
+  color: hsl(180 66% 49% / var(--tw-text-opacity));
 }
 
 .hover\:text-primary-dark-violet:hover {
   --tw-text-opacity: 1;
   color: hsl(257 27% 26% / var(--tw-text-opacity));
-}
-
-.hover\:text-primary-cyan:hover {
-  --tw-text-opacity: 1;
-  color: hsl(180 66% 49% / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
@@ -1138,6 +1139,14 @@ input.not-valid:focus {
     margin-right: 5.5rem;
   }
 
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .lg\:mb-4 {
+    margin-bottom: 1rem;
+  }
+
   .lg\:mt-6 {
     margin-top: 1.5rem;
   }
@@ -1148,10 +1157,6 @@ input.not-valid:focus {
 
   .lg\:ml-4 {
     margin-left: 1rem;
-  }
-
-  .lg\:mt-0 {
-    margin-top: 0px;
   }
 
   .lg\:mb-0 {
@@ -1236,16 +1241,17 @@ input.not-valid:focus {
     justify-content: space-around;
   }
 
-  .lg\:gap-\[3rem\] {
-    gap: 3rem;
-  }
-
   .lg\:gap-\[6rem\] {
     gap: 6rem;
   }
 
   .lg\:p-10 {
     padding: 2.5rem;
+  }
+
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .lg\:px-0 {
@@ -1256,11 +1262,6 @@ input.not-valid:focus {
   .lg\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
-  }
-
-  .lg\:px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem;
   }
 
   .lg\:text-left {
@@ -1275,25 +1276,17 @@ input.not-valid:focus {
     font-size: 1.1rem;
   }
 
-  .lg\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
   .lg\:text-\[2\.2rem\] {
     font-size: 2.2rem;
   }
 
-  .lg\:text-\[1\.8rem\] {
-    font-size: 1.8rem;
-  }
-
-  .lg\:text-\[1\.5rem\] {
-    font-size: 1.5rem;
-  }
-
   .lg\:text-\[1\.3rem\] {
     font-size: 1.3rem;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .lg\:leading-\[4\.5rem\] {
