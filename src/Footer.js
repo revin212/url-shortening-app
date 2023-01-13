@@ -7,15 +7,20 @@ import igIcon from './images/icon-instagram.svg'
 function Footer() {
     return ( 
         <div className="footer-section bg-neutral-very-dark-violet">
+            {/* Get Started section */}
             <div className="get-started px-2 py-[5rem] bg-primary-dark-violet text-center font-bold text-white flex flex-col items-center justify-center">
                 <h2 className="text-[1.4rem] lg:text-[2.2rem]">Boost your links today</h2>
                 <button className=" text-[1rem] lg:text-[1.3rem] bg-primary-cyan hover:bg-primary-cyan-hover cursor-pointer rounded-full py-2 px-6 lg:px-8 mt-4">Get Started</button>
             </div>
 
+            {/* footer links section */}
             <div className="footer-links py-[3rem] flex flex-col items-center lg:flex-row lg:items-start lg:justify-around">
+                {/* logo */}
                 <div className="logo mt-[1rem] lg:mt-0 mb-[3rem]">
                     <img src={logo} alt="logo" className=' fill-white' />
                 </div>
+
+                {/* links */}
                 <div className="links text-white lg:flex lg:justify-between lg:gap-[6rem]">
                     <div className="features flex flex-col items-center lg:items-start mb-[3rem] text-md text-neutral-gray">
                         <h3 className='mb-6 font-bold text-white text-lg'>Features</h3>
@@ -37,6 +42,8 @@ function Footer() {
                         <a className='mb-2 hover:text-primary-cyan hover:underline' href="#">Contact</a>
                     </div>
                 </div>
+
+                {/* social media icons */}
                 <div className="socmeds flex justify-center items-center gap-5">
                     <a href="#">
                         <img src={fbIcon} alt="fb-icon" />

@@ -1,20 +1,15 @@
 import { useEffect } from "react";
 
 const ResultList = (props) => {
-    let results = props.results;
-    useEffect(() => {
+    let results = props.results;//get the result array from the props
+    useEffect(() => {           //updating the results array
         results = props.results;
     }, [props])
-    console.log(results);
-    // const shortedLink = useRef();
-    // const shortedLinks = useRef(results.map(() => createRef()));
-    // const copyBtn = useRef();
-    // const copyBtns = useRef(results.map(() => createRef()));
 
-    function copyLink(id){
+    function copyLink(id){      //copy the shortened url to clipboard
         const shortedLink = document.getElementById(`result-${id}`)
         const copyBtn = document.getElementById(`btn-${id}`)
-        navigator.clipboard.writeText(shortedLink.innerText);
+        navigator.clipboard.writeText(shortedLink.innerText);   //copy the shortened url to clipboard
         copyBtn.innerText = 'Copied!'
         if(copyBtn.classList.contains('bg-primary-cyan')){
             copyBtn.classList.remove('bg-primary-cyan')

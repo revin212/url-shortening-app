@@ -1,6 +1,6 @@
-import Features from "./Features";
 import Hero from "./Hero";
 import MainApp from "./MainApp";
+import Features from "./Features";
 
 function Main() {
     return ( 

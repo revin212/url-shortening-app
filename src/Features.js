@@ -5,6 +5,7 @@ import customizeIcon from './images/icon-fully-customizable.svg'
 function Features() {
     return ( 
         <div className="features-section mt-[7rem] mb-[8rem]">
+            {/* statistics section */}
             <div className="statistics text-center mb-[4rem] lg:mb-[6rem] flex flex-col items-center">
                 <h2 className=" text-[1.7rem] lg:text-[2rem] text-neutral-very-dark-blue font-bold mb-6">
                     Advanced Statistics
@@ -14,11 +15,15 @@ function Features() {
                     advanced statistics dashboard.
                 </p>
             </div>
+            {/* features section */}
             <div className="features lg:flex">
+                {/* card-1 Brand Recognition */}
                 <div className="card flex flex-col items-center lg:items-start lg:text-left text-center mb-[6rem] lg:mr-[5.5rem] lg:translate-y-[-3rem]">
+                    {/* icon circle */}
                     <div className="icon bg-primary-dark-violet rounded-full w-[5.5rem] h-[5.5rem] flex items-center justify-center">
                         <img src={brandIcon} alt="brand-icon" />
                     </div>
+                    {/* description */}
                     <div className="desc mt-8">
                         <h3 className='text-neutral-very-dark-blue text-[1.4rem] font-bold mb-5'>Brand Recognition</h3>
                         <p className='text-[1rem] text-neutral-grayish-violet'>
@@ -28,11 +33,15 @@ function Features() {
                     </div>
                 </div>
 
+                {/* card-2 Detailed Records */}
                 <div className="card flex flex-col items-center lg:items-start lg:text-left text-center mb-[6rem] lg:mr-[5.5rem] relative">
+                    {/* separator line */}
                     <div className="separator absolute bg-primary-cyan w-[0.5rem] h-[3rem] top-[-3rem] lg:h-[2rem] lg:top-[8.5rem] lg:rotate-90 lg:left-[-3.5rem]"></div>
+                    {/* icon circle */}
                     <div className="icon bg-primary-dark-violet rounded-full w-[5.5rem] h-[5.5rem] flex items-center justify-center">
                         <img src={recordsIcon} alt="brand-icon" />
                     </div>
+                    {/* description */}
                     <div className="desc mt-8">
                         <h3 className='text-neutral-very-dark-blue text-[1.4rem] font-bold mb-5'>Detailed Records</h3>
                         <p className='text-[1rem] text-neutral-grayish-violet'>
@@ -42,11 +51,15 @@ function Features() {
                     </div>
                 </div>
 
+                {/* card-3 Fully Customizable */}
                 <div className="card flex flex-col items-center lg:items-start lg:text-left text-center mb-[4rem] relative lg:translate-y-[3rem]">
+                    {/* separator line */}
                     <div className="separator separator absolute bg-primary-cyan w-[0.5rem] h-[3rem] top-[-3rem] lg:h-[2rem] lg:top-[5.5rem] lg:rotate-90 lg:left-[-3.5rem]"></div>
+                    {/* icon circle */}
                     <div className="icon bg-primary-dark-violet rounded-full w-[5.5rem] h-[5.5rem] flex items-center justify-center">
                         <img src={customizeIcon} alt="brand-icon" />
                     </div>
+                    {/* description */}
                     <div className="desc mt-8">
                         <h3 className='text-neutral-very-dark-blue text-[1.4rem] font-bold mb-5'>Fully Customizable</h3>
                         <p className='text-[1rem] text-neutral-grayish-violet'>
