@@ -1,3 +1,4 @@
+import Features from "./Features";
 import Hero from "./Hero";
 import MainApp from "./MainApp";
 
@@ -7,6 +8,7 @@ function Main() {
             <main>
                 <Hero />
                 <MainApp />
+                <Features />
             </main>
         </div>
      );
