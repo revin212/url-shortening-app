@@ -6,6 +6,13 @@ const ResultList = (props) => {
         results = props.results;
     }, [props])
 
+    // const ref = useCallback(node => {
+    //     if (node !== null) {
+    //         // do something with the node
+    //         navigator.clipboard.writeText(node.innerText);
+    //     }
+    // }, []);
+
     function copyLink(id){      //copy the shortened url to clipboard
         const shortedLink = document.getElementById(`result-${id}`)
         const copyBtn = document.getElementById(`btn-${id}`)
